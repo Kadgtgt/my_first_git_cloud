@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 200%,
+      rgba(0, 0, 0, 0.5) 200%
+    ),
+    url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 10%;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: orange;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 1px;
+  float: left;
+  padding-bottom: 70px;
+}
+
+.container {
+  display: flex;
+}
+
+.container .components {
+  display: flex;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul li {
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-weight: normal;
+  transition: 0.5s ease-in-out;
+}
+
+ul li a:hover {
+  color: tomato;
+}
+
+a {
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 15px;
+  display: table;
+  width: 150px;
+  padding: 10px;
+}
+
+nav .fas {
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+
+.study-courses {
+  color: blue;
+  margin-left: 0px;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.study-courses h2 {
+  display: flex;
+  border-bottom: dotted;
+  color: beige;
+  transition: 0.9s ease-in-out;
+  margin-bottom: 40px;
+  float: inline-end;
+}
+
+.study-courses h2 a {
+  display: flex;
+  float: right;
+}
+
+.study-courses h2:hover {
+  color: tomato;
+}
+
+.study-courses ul {
+  display: block;
+}
+
+.study-courses ul li {
+  margin-bottom: 0px;
+  display: inline-flex;
+}
+
+.study-courses ul li span {
+  color: pink;
+  font-weight: bold;
+}
+
+.study-courses ul li span:hover {
+  color: tomato;
+}
+
+.study-courses ul li p {
+  color: whitesmoke;
+  font-size: 110%;
+  font-weight: initial;
+  padding: 40px 10px;
+  border: 1px salmon black;
+  transition: 0.5s ease-in-out;
+  margin: 20px;
+  border-radius: 10px;
+  background-repeat: repeat;
+  transition: transform 1s;
+}
+
+.study-courses ul li p:hover {
+  transform: translateY(-10px);
+}
+
+/* Coursses */
+.main-course {
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.course-box {
+  width: 100%;
+  padding: 100px;
+  margin-top: 300px;
+  background: ;
+  border-radius: 30px;
+  box-shadow: 0 20px 105px rgba(0, 0, 0, 0.1);
+}
+
+.course-box .course {
+  display: flex;
+}
+
+.box {
+  width: 23%;
+  padding: 10px;
+  margin: 14px;
+  border-radius: 10px;
+  background: rgb(235, 233, 233);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  transition: transform 1s;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+}
+
+.box p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.box button {
+  background: black;
+  color: tomato;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.box button:hover {
+  background: rgba(0, 0, 0, 0.842);
+}
+
+.box i {
+  font-size: 1rem;
+  float: right;
+}
